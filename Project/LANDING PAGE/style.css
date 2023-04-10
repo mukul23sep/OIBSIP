@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    padding: 35px 5% 5px 5%;
+    min-height: 100vh;
+    background-color: rgba(225, 217, 248, 0.4);
+    font-family: sans-serif;
+    
+}
+
+header{
+    height: 60px;
+    padding: 5px;
+    background-color: rgba(55, 10, 180, 0.8);
+    border-radius: 2px;
+}
+nav{
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 5%;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 550px;
+    list-style-type: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.hero{
+    margin-top: 15px;
+    background-color:rgba(55, 10, 180, 0.8);
+	background-image: linear-gradient(rgba(55, 10, 180, 0.5), rgba(55, 10, 180, 0.2)),url(./h.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 2px;
+}
+
+.hero h2{
+    padding:15% 35px 1% 35px;
+    font-size: 3.325rem;
+    color: #fff;
+}
+
+.hero p{
+    font-size: 1.825rem;
+    color: #fff;
+    padding: 10px 35px;
+}
+
+.photos{
+    margin-top: 15px;
+    
+}
+.photos h2{
+    font-size: 2.425rem;
+    color: rgb(119, 12, 219);
+    margin: 35px 0 20px 0;
+}
+.photos .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img img{   
+    width: 340px;
+    height: 280px;
+    border-radius: 5px;
+}
+.videos h2{
+    font-size: 2.425rem;
+    color: rgb(119, 12, 219);
+    margin: 5px 0 20px 0;
+}
+.videos .vid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    height: 50px;
+    background-color:rgba(55, 10, 180, 0.8); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px;
+}
+footer span{
+    padding: 0 10px;
+}
